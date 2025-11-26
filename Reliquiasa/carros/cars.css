@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.carro {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid red;
+  border-radius: 8px;
+  background-color: #111;
+}
+
+.carro img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.carro h2 {
+  color: red;
+}
+
+.carro p {
+  text-align: justify;
+  line-height: 1.6;
+}
